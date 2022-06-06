@@ -7,7 +7,7 @@ import dotenv from "dotenv";
 import cors from "cors";
 
 //CONFIGURACIONES
-app.set("puerto",4000);
+app.set("puerto",4000 || process.env.PORT);
 
 
 
