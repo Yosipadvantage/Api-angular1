@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
-import AuthRouer from "./Routes/auth.routes";
-import("./Config/database");
-import generateRoles from "./Functions/generateRoles";
+import AuthRouer from "./src/Routes/auth.routes";
+import("./src/Config/database");
+import generateRoles from "./src/Functions/generateRoles";
 import dotenv from "dotenv";
 import cors from "cors";
 
